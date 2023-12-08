@@ -307,14 +307,14 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: 85bf6733b653c8445add2f40bc746a00, type: 2}
   m_TreeDistance: 56
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 40
+  m_TreeCrossFadeLength: 7
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 90
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_DetailObjectDistance: 70
+  m_DetailObjectDensity: 0.336
+  m_HeightmapPixelError: 190
+  m_SplatMapDistance: 10
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed024d1bf6ccaa346a3763421e2b2135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateFrequency: 2
+  updateFrequency: 0.2
   fpsTitle: {fileID: 692272104}
 --- !u!1 &705507993
 GameObject:
